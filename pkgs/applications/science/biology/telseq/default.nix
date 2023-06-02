@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
     owner = "zd1";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-HaiZmWU6akHXJVWBmCvkG2E61NDrAP7UIxx9DNCEZqE=";
+    sha256 = "0l2nkwhif96f51f4amnlf414lhl4rv9vh8iffyp431v6s28gsr90";
   };
 
   buildInputs = [ ];
