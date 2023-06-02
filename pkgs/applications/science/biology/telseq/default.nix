@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   meta = with lib; {
     description = "A software that estimates telomere length from whole genome sequencing data (BAMs).";
     license = licenses.gpl3;
-    homepage = "http://bowtie-bio.sf.net/bowtie2";
+    homepage = "git://github.com/zd1/telseq.git";
     maintainers = with maintainers; [ jbedo ];
     platforms = platforms.all;
   };
