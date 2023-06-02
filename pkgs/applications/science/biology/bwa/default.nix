@@ -11,7 +11,7 @@ stdenv.mkDerivation {
     hash = "sha256-8u35lTK6gBKeapYoIkG9MuJ/pyy/HFA2OiPn+Ml2C6c=";
   };
   
-  buildInputs = [ zlib ]
+  buildInputs = [ zlib ];
 
   # Avoid hardcoding gcc to allow environments with a different
   # C compiler to build
