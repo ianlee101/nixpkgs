@@ -37739,6 +37739,8 @@ with pkgs;
   tandem-aligner = callPackage ../applications/science/biology/tandem-aligner { };
 
   tebreak = callPackage ../applications/science/biology/tebreak { };
+  
+  telseq = callPackage ../applications/science/biology/telseq { };
 
   treemix = callPackage ../applications/science/biology/treemix { };
 
