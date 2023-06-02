@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     sha256 = "";
   };
 
-  buildInputs = [ ];
+  buildInputs = [ bamtools ];
 
   meta = with lib; {
     description = "A software that estimates telomere length from whole genome sequencing data (BAMs).";
